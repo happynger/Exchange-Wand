@@ -8,7 +8,7 @@ namespace ExchangeWand.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Exchanger");
-			Tooltip.SetDefault("This is a modded sword.");
+			Tooltip.SetDefault("This is the wand of Exchanging... Thats it...");
 		}
 		public override void SetDefaults()
 		{
