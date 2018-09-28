@@ -1,0 +1,3 @@
+author = Ori Tahirov
+version = 0.1
+displayName = Exchange Wand
