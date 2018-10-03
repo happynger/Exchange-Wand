@@ -6,11 +6,10 @@ namespace ExchangeWand
 	{
 		public ExchangeWand()
 		{
-			Properties = new ModProperties()
-			{
-				Autoload = true
-			};
-			
+            Properties = new ModProperties()
+            {
+                Autoload = true
+            };
 		}
 	}
 }

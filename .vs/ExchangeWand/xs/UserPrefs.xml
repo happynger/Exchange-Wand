@@ -1,8 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExchangeWand.cs">
-    <Files>
-      <File FileName="ExchangeWand.cs" Line="7" Column="9" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExchangeWand" expanded="True">
+            <Node name="ExchangeWand" expanded="True">
+              <Node name="Items" expanded="True">
+                <Node name="Exchanger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
