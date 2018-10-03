@@ -2,3 +2,4 @@ author = Ori Tahirov
 version = 0.1
 displayName = Exchange Wand
 noCompile = true
+buildIgnore = *.csproj, *.user, .git/*, .gitignore, bin/*, obj/*, .vs/*, README.md, *.sln

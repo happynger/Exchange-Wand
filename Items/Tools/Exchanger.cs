@@ -2,12 +2,13 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExchangeWand.Items
+namespace ExchangeWand.Items.Tools
 {
     public class Exchanger : ModItem
     {
         public override void SetStaticDefaults()
 		{
+			DisplayName.SetDefault("Exchanger");
 			Tooltip.SetDefault("This is the exchanger it exchanges stuff");
 		}
 		
@@ -22,6 +23,7 @@ namespace ExchangeWand.Items
 			item.useStyle = 5;
 			item.useTurn = true;
 			item.autoReuse = true;
+			
 		}
 
 		public override void AddRecipes()
@@ -33,6 +35,12 @@ namespace ExchangeWand.Items
 			recipe.anyIronBar = true;
 			recipe.anyWood = true;
 			recipe.SetResult(this, 1);
+			recipe.AddRecipe();
+		}
+		
+		public void AltFunctionUse()
+		{
+
 		}
     }
 }

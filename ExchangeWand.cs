@@ -10,6 +10,7 @@ namespace ExchangeWand
             {
                 Autoload = true
             };
+			
 		}
 	}
 }
